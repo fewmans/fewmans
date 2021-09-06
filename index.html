@@ -120,6 +120,13 @@
     .btn-discord:hover{
       background-color: #5865F2;
     }
+    .btn-etherscan{
+      background-color: #21325B;
+      transition: all ease-in-out 0.2s;
+    }
+    .btn-etherscan:hover{
+      background-color: #000000;
+    }
     section.faq span.few{
       color: #666666;
       padding-top: 10px;
@@ -133,6 +140,21 @@
     footer img{
       width: 40px;
       height: 40px;
+    }
+    .timer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 30px 0 15px 0;
+    }
+    p.release span
+    {
+      color: #0B9B9B;
+    }
+    p.release a{
+      text-decoration: underline;
+      color: #01686B;
     }
 
     @media (min-width: 720px) {
@@ -199,10 +221,28 @@
       <p>
         Earn <span class="fewgold">FewGold</span> <nobr>for each breed!</nobr>
       </p>
+      <p>
+        <a class="btn btn-etherscan" href="https://etherscan.io/address/0xAd5f6CDDa157694439EF9f6DD409424321C74628">Etherscan Drop</a>
+      </p>
       <hr>
-      <p class="drop">
-        Fewmans #NFTs Drop: <nobr>Sep 9,2021</nobr><br />
-        Drop Starts at 13:37 PM UTC
+      <p class="release">
+        FEWMANS NFTs DROP <span>IS LIVE!</span><br /><br />
+        <span>Minting Price:</span> $0. Just gas<br />
+        <span>Network:</span> Ethereum Mainnet<br />
+        <span>Live until</span> all 10,000 are minted<br />
+        <span>Receiving NFTs:</span> Right after the mint<br /><br />
+
+        How to mint Fewmans:<br /><br />
+
+        1. Go to Etherscan <a href="https://etherscan.io/address/0xAd5f6CDDa157694439EF9f6DD409424321C74628">using this link</a><br /><br />
+        2. Type in an ID in a range <nobr>from 16 to 9999</nobr><br /><br />
+        3. Click to mint and initiate <nobr>the transaction</nobr><br /><br />
+        4. If you will see that the gas fee suggested
+        by your wallet provider (MetaMask or other) is
+        in a range of <nobr>$XXX—$X,XXX,</nobr> confirm the transaction.<br /><br />
+        5. If you will see an enormous gas fees suggested to be paid
+        for minting, it means that the Fewman with such ID
+        has already been minted. Choose another ID, see whether it is still available and mint it.
       </p>
       <p>
         <a class="btn btn-discord" href="https://discord.gg/FcZFCd7G">Few Join Fewmans Discord</a>
@@ -211,8 +251,8 @@
         <img src="fewmans-illustration.svg">
       </div>
     </section>
-    <section class="faq">
-      <h2>FAQ</h2>
+  <!--     <section class="faq">
+   <h2>FAQ</h2>
       <p>
         Q: What is Fewmans?<br />
         <span class="few">Few</span>
@@ -233,7 +273,7 @@
         Q: What do I have to do?<br />
         <span class="few">Few</span>
       </p>
-    </section>
+    </section> -->
     <div class="separator"><hr></div>
     <footer>
       <a href="https://twitter.com/fewmans">
