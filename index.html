@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fewmans: NFTs Evolution Lab</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style type="text/css">
+    *{
+      box-sizing: border-box;
+    }
+    html, body{
+      font-family: 'Press Start 2P', sans-serif;
+    }
+    body{
+      background: #F9FBFC;
+    }
+    a, a:hover, a:active, a:visited{
+      text-decoration: none;
+    }
+    div.container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    header, section, footer, div.separator
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-width: 700px;
+    }
+    section, footer{
+      padding: 30px 20px 0px 20px;
+    }
+    div.separator{
+      padding: 30px 0px 0 0;
+    }
+    h1, h2{
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+    }
+    hr{
+      width: 100%;
+      max-width: 150px;
+      border: 1px solid #000000;
+    }
+    .logo{
+      width: 200px;
+      margin-right: 25px;
+    }
+    section.hero,
+    section.faq
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    section.hero hr{
+      margin: 30px 0px;
+    }
+    p{
+      font-size: 12px;
+      text-align: center;
+      line-height: 22px;
+      margin: 10px 0;
+    }
+    section.hero p span.women{
+      color: #F973D9;
+    }
+    section.hero p span.men{
+      color: #00BECA;
+    }
+    section.hero p span.fewgold{
+      position: relative;
+      padding-right: 22px;
+    }
+    section.hero p span.fewgold::after{
+      position: absolute;
+      content: '';
+      top: -3px;
+      right: 0;
+      width: 22px;
+      height: 22px;
+      background-image: url("fewgold.svg");
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-size: 16px 16px;
+    }
+    .illustration
+    {
+      padding: 40px 0px 0px 0px;
+      width: 100%;
+      max-width: 700px;
+    }
+    .illustration img{
+      width: 100%;
+    }
+    a.btn{
+      display: inline-block;
+      padding: 15px 20px;
+      font-size: 12px;
+      color: #FFFFFF;
+    }
+    .btn-discord{
+      background-color: #717CF4;
+      transition: all ease-in-out 0.2s;
+    }
+    .btn-discord:hover{
+      background-color: #5865F2;
+    }
+    section.faq span.few{
+      color: #666666;
+      padding-top: 10px;
+    }
+    footer{
+      padding-top: 30px;
+    }
+    footer a{
+      margin: 0px 10px;
+    }
+    footer img{
+      width: 40px;
+      height: 40px;
+    }
+
+    @media (min-width: 720px) {
+      main{
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+      section{
+        padding-top: 40px;
+      }
+      footer{
+        padding-top: 30px;
+      }
+      h1, h2{
+        font-size: 20px;
+        line-height: 30px;
+      }
+      p{
+        font-size: 16px;
+        line-height: 24px;
+      }
+      a.btn{
+        padding: 15px 30px;
+        font-size: 16px;
+      }
+      section.hero p span.fewgold{
+        padding-right: 28px;
+      }
+      section.hero p span.fewgold::after{
+        position: absolute;
+        content: '';
+        top: -3px;
+        right: 0;
+        width: 28px;
+        height: 24px;
+        background-image: url("fewgold.svg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 20px 20px;
+      }
+      footer a{
+        margin: 0px 15px;
+      }
+      footer a img{
+        width: 50px;
+        height: 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+  <div class="container">
+    <header>
+      <img class="logo" src="fewmans-logo.svg">
+    </header>
+    <section class="hero">
+      <h1>Fewmans:<br />The First On-chain Evolution Lab</h1>
+      <p>
+        Crossbreed your <span class="men">5,000 Male</span><br />
+        and <span class="women">5,000 Female</span> Fewmans<br />
+        on the way to <nobr>the Superfewman.</nobr><br />
+      </p>
+      <p>
+        Earn <span class="fewgold">FewGold</span> <nobr>for each breed!</nobr>
+      </p>
+      <hr>
+      <p class="drop">
+        Fewmans #NFTs Drop: <nobr>Sep 9,2021</nobr><br />
+        Drop Starts at 13:37 PM UTC
+      </p>
+      <p>
+        <a class="btn btn-discord" href="https://discord.gg/FcZFCd7G">Few Join Fewmans Discord</a>
+      </p>
+      <div class="illustration">
+        <img src="fewmans-illustration.svg">
+      </div>
+    </section>
+    <section class="faq">
+      <h2>FAQ</h2>
+      <p>
+        Q: What is Fewmans?<br />
+        <span class="few">Few</span>
+      </p>
+      <p>
+        Q: When Fewmans drop?<br />
+        <span class="few">Few</span>
+      </p>
+      <p>
+        Q: Does it look rare?<br />
+        <span class="few">Few</span>
+      </p>
+      <p>
+        Q: Who understands this?<br />
+        <span class="few">Few</span>
+      </p>
+      <p>
+        Q: What do I have to do?<br />
+        <span class="few">Few</span>
+      </p>
+    </section>
+    <div class="separator"><hr></div>
+    <footer>
+      <a href="https://twitter.com/fewmans">
+        <img src="twitter.svg">
+      </a>
+      <a href="https://discord.gg/FcZFCd7G">
+        <img src="discord.svg">
+      </a>
+    </footer>
+  </div>
+  </main>
+</body>
+</html>
